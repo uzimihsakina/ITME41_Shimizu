@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+   background-image:url(image/painting.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 9%;
+    background-blend-mode: blur(10px);
+}
+
+
+.login-container{
+  height: 100vh;
+  width: 100%;
+    
+}
+
+.text-color{
+    color:#24838F;
+}
+
+.login-form{
+  margin-top: 201px;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+ background: rgba(70, 155, 173, 0.36);
+
+}
+.login-form .form-control{
+  font-size: 17px;
+  min-height: 48px;
+  font-weight: 500;
+ font-family: Montserrat;
+color: black;
+}
+.login-form a{
+  text-decoration: none;
+  color:#666;
+}
+.login-form a:hover{
+  color:#21C9E0;
+}
+.login-form input{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+}
+.text-dark{
+ font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;   
+}
+.forgot-link{
+  font-size: 13px;
+}
+
+.form-control:focus{
+  border-color:#723dbe;
+  box-shadow:black !important;
+}
+.btn-custom{
+  background: red;
+  border-color:red;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background:#FF473A;
+  border-color: #FF473A;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+
+
+
+
+.background{
+   
+    
+}
+.App-Info{
+ 
+position: absolute;
+width: 220px;
+height: 150px;
+left: calc(50% - 220px/2 - 9.14px);
+top: calc(50% - 150px/2 + 69px);   
+}
+
+.text-color{
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FCFCFC;
+}
+.text-color-p{
+
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #FCFCFC;
+
+}
+
+.text-appinfoP{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: white !important;
+    
+}
+.btn-danger{
+        
+background: #FF473A;
+    color: aliceblue !important;
+}
+
+.btn-block {
+display: block;
+min-width: 100%;
+
+}
+.control-lg{
+   display: block;
+min-width: 100%; 
+}
+    
+
+
